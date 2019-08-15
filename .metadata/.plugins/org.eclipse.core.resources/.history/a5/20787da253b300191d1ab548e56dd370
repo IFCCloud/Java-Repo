@@ -1,0 +1,101 @@
+package com.obj.jgObj;
+
+import javax.xml.bind.annotation.XmlElement;
+
+public class PurchaseOrderDetail {
+	
+	private String ordernumber;
+	private String colourcode;
+	private String colourdesc;
+	private String sizecode;
+	private String sizedesc;
+	private String sku;
+	private String quantity;
+	private String uom;
+	
+	
+	public PurchaseOrderDetail() {}
+
+
+	public String getOrdernumber() {
+		return ordernumber;
+	}
+
+
+	public void setOrdernumber(String ordernumber) {
+		this.ordernumber = ordernumber;
+	}
+
+
+	public String getColourcode() {
+		return colourcode;
+	}
+
+
+	public void setColourcode(String colourcode) {
+		this.colourcode = colourcode;
+	}
+
+
+	public String getColourdesc() {
+		return colourdesc;
+	}
+
+
+	public void setColourdesc(String colourdesc) {
+		this.colourdesc = colourdesc;
+	}
+
+
+	public String getSizecode() {
+		return sizecode;
+	}
+
+
+	public void setSizecode(String sizecode) {
+		this.sizecode = sizecode;
+	}
+
+
+	public String getSizedesc() {
+		return sizedesc;
+	}
+
+
+	public void setSizedesc(String sizedesc) {
+		this.sizedesc = sizedesc;
+	}
+
+
+	public String getSku() {
+		return sku;
+	}
+
+
+	public void setSku(String sku) {
+		this.sku = sku;
+	}
+
+
+	public String getQuantity() {
+		return quantity;
+	}
+
+
+	public void setQuantity(String quantity) {
+		this.quantity = quantity;
+	}
+
+
+	public String getUom() {
+		return uom;
+	}
+
+
+	public void setUom(String uom) {
+		this.uom = uom;
+	}
+	
+	
+
+}

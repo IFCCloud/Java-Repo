@@ -1,0 +1,17 @@
+package com.obj.jgObj;
+
+public class PurchaseOrderDetail {
+	
+	private String ordernumber;
+	private String colourcode;
+	private String colourdesc;
+	private String sizecode;
+	private String sizedesc;
+	private String sku;
+	private String quantity;
+	private String uom;
+	
+	
+	public PurchaseOrderDetail() {}
+
+}

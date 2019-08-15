@@ -1,0 +1,28 @@
+package com.obj.jgObj;
+
+public class PurchaseOrder {
+	private String ordernumber;
+	private String ordertype;
+	private String orderstatus;
+	private String brand;
+	private String warehouseno;
+	private String lineno;
+	private String contactno;
+	private String subcategory;
+	private String gendercode;
+	private String fabriccode;
+	private String suppliercode;
+	private String suppliername;
+	private String podate;
+	private String exfactorydate;
+	private String shipnotbefore;
+	private String shipnotafter;
+	private String fobcost;
+	private String currencycode;
+	private String totalquantity;
+	private String totalfob;
+	private String freightmode;
+	
+	public PurchaseOrder() {}
+	
+}
